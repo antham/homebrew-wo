@@ -5,21 +5,21 @@
 class Wo < Formula
   desc "Workspace shell manager"
   homepage "https://github.com/antham/wo"
-  version "0.0.6"
+  version "0.0.7"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/antham/wo/releases/download/0.0.6/wo_0.0.6_darwin_amd64.tar.gz"
-      sha256 "27aa9623fba85577c55cb14fa60e1addce19986d43922088347a1e2d13bf0efb"
+      url "https://github.com/antham/wo/releases/download/0.0.7/wo_0.0.7_darwin_amd64.tar.gz"
+      sha256 "5b17a0f6824bcc1d1de379fa8aeb56926df9a06d6c6561eaedc5fa5d76ed5d11"
 
       def install
         bin.install "wo"
       end
     end
     on_arm do
-      url "https://github.com/antham/wo/releases/download/0.0.6/wo_0.0.6_darwin_arm64.tar.gz"
-      sha256 "edf51f7310091ccfcb308b8eab5629eaa006547267379204d8dc0e4b66ed5d59"
+      url "https://github.com/antham/wo/releases/download/0.0.7/wo_0.0.7_darwin_arm64.tar.gz"
+      sha256 "6591fec3a09e27a24d4d03e8b656f2cec5d3caeab91db05a495eb20472917f23"
 
       def install
         bin.install "wo"
@@ -30,8 +30,8 @@ class Wo < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/antham/wo/releases/download/0.0.6/wo_0.0.6_linux_amd64.tar.gz"
-        sha256 "b08b9142a0bb7c3565087e95af5f331025400365f8870fe5c6f3a9c379de03a7"
+        url "https://github.com/antham/wo/releases/download/0.0.7/wo_0.0.7_linux_amd64.tar.gz"
+        sha256 "100d2a53428af86f89e9de50e6ce0e0389730af40232fa052e5fc1e6fa951056"
 
         def install
           bin.install "wo"
@@ -40,8 +40,8 @@ class Wo < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/antham/wo/releases/download/0.0.6/wo_0.0.6_linux_arm64.tar.gz"
-        sha256 "d88805ae8d22dcc4b726c39f3f18c696d45ff51bacde95b8d2fe85cbb703f82b"
+        url "https://github.com/antham/wo/releases/download/0.0.7/wo_0.0.7_linux_arm64.tar.gz"
+        sha256 "e0fa3a7b3b0fa1826f9fda98f1ea2ae2ef984be2b16a6110dab98b005caa6386"
 
         def install
           bin.install "wo"
